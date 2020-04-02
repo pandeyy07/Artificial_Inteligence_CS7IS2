@@ -1,5 +1,7 @@
-SIZE = 5;
+import time
 
+SIZE = 5
+MOVES = 0
 #converts puzzle objects into text
 def convertToText(p):
     textPuzzle = ['|', '|']        
@@ -131,6 +133,8 @@ def compare(p, nextValue, nextEmptyCell, row, col):
     
 
 def backtrack(p):
+    global MOVES
+    MOVES = MOVES + 1
     puzzle = p[0]
 
     try:
@@ -183,8 +187,10 @@ def backtrack(p):
     
 
 if __name__ == '__main__':
-    p = readInPuzzle('easy.txt')
-    #p = readInPuzzle('hard.txt')
+    startTime = time.time()
+    
+    #p = readInPuzzle('easy.txt')
+    p = readInPuzzle('hard.txt')
 
     string = convertToText(p)
     print('Unsolved Futoshiki Puzzle:')
@@ -198,8 +204,7 @@ if __name__ == '__main__':
     else:
         print('No solution')
 
+    print('Number of moves: ', MOVES)
+    print('Seconds taken: ', (time.time() - startTime))
 
-
-
-
-             
+       
