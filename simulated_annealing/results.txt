@@ -14,7 +14,7 @@ Printing initial (random) board configuration.
 |	|1|	|1|	|1|	|1|	|1|	|
 
 
-Energy of initial (random) configuration is 0
+Energy of initial configuration is 0
 Creating copy of assignment.
 Default constructor for Futoshiki game board constructing with size = 5.
 
