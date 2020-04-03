@@ -1,0 +1,74 @@
+Default constructor for Futoshiki game board constructing with size = 5.
+Creating vector with Mersenne Twister state-size [312].
+
+Printing initial (random) board configuration.
+
+|	|1|	|1|	|1|	|1|	|1|	|
+|				 v		|
+|	|1|	|1|	|1|	|1|  >  |1|	|
+|		 v	 v	 ^		|
+|	|1|	|1|  >  |1|	|1|	|1|	|
+|			 v			|
+|	|1|	|1|	|1|	|1|	|1|	|
+|				 ^	 ^	|
+|	|1|	|1|	|1|	|1|	|1|	|
+
+
+Energy of initial (random) configuration is 0
+Creating copy of assignment.
+Default constructor for Futoshiki game board constructing with size = 5.
+
+Beginning Simulated Annealing Process.
+
+  Iteration           Temperature             Energy 
+-----------------------------------------------------------
+  1			99.9998		10
+100000			81.873059		80
+200000			67.031978		83
+300000			54.881131		87.5
+400000			44.93286		70
+500000			36.787907		80
+600000			30.119385		97.5
+700000			24.659662		97.5
+800000			20.189619		70
+900000			16.529859		70
+1000000			13.533501		77.5
+1100000			11.080291		87.5
+1200000			9.0717736		110.5
+1300000			7.4273385		80
+1400000			6.0809892		105
+1500000			4.9786919		95
+1600000			4.0762074		110
+1700000			3.3373156		133
+1800000			2.7323624		118
+1900000			2.2370687		140.5
+2000000			1.8315566		163
+2100000			1.4995514		178
+2200000			1.2277286		178
+2300000			1.005179		178
+2400000			0.82297075		178
+2500000			0.67379133		178
+2600000			0.55165357		178
+2700000			0.45165566		178
+2800000			0.3697843		178
+2900000			0.30275372		178
+-----------------------------------------------------------
+
+Solution is found.
+
+|	|2|	|1|	|5|	|4|	|3|	|
+|				 v		|
+|	|3|	|5|	|4|	|2|  >  |1|	|
+|		 v	 v	 ^		|
+|	|1|	|4|  >  |3|	|5|	|2|	|
+|			 v			|
+|	|5|	|3|	|2|	|1|	|4|	|
+|				 ^	 ^	|
+|	|4|	|2|	|1|	|3|	|5|	|
+
+
+Energy = 178
+CPU time used (per clock_gettime()) for simulated annealing algorithm: 1.170598 seconds
+Destroying Futoshiki object of size = 5.
+Destroying Futoshiki object of size = 5.
+
