@@ -1,7 +1,7 @@
 Default constructor for Futoshiki game board constructing with size = 5.
 Creating vector with Mersenne Twister state-size [312].
 
-Printing initial (random) board configuration.
+Printing initial board configuration.
 
 |	|1|	|1|	|1|	|1|	|1|	|
 |				 v		|
