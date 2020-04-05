@@ -7,4 +7,4 @@ Cian Conry
 Patrick Prunty
 Yash Pandey
 
-Aims: Solve a Constraint Satisfaction problem using a variety of AI algorithms. 
+Aim: Solve a Constraint Satisfaction problem using a variety of AI algorithms. 
