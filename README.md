@@ -21,4 +21,4 @@ To run Backtracking with forward checking go to ForwardChecking/BacktrackingImpr
 
 To run AC-3 go to AC-3/AC3_AI.ipynb and run the code. 
 
-To run Simulated Annealing go to simulated_annealing/
+To compile and run Simulated Annealing, simply type 'make' inside of the directory on your terminal. After which there will be two executables. futoshiki and futoshiki2. The former executable, futoshiki, solves the 'easy' difficulty 5x5 futoshiki puzzle, which can viewed in the easy.png file, whilst the later executable, futoshiki2, solves the 'extreme' difficulty 5x5 futoshiki puzzle. In the case that you do not have the suitable commpiler to compile the code, two executables are ready placed in the folder. To run them, simply type ./futoshiki or ./futoshiki2 in the terminal.
