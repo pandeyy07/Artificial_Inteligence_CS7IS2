@@ -13,7 +13,7 @@ The constraint satisfaction problem our group chose to solve is the Futoshiki lo
 
 ![Alt text](puzzleExample.png?raw=true)
 
-The Algorithms we used to solve the puzzle iniclude Backtracking with and without value forward checking, AC-3 and Simulated Annealing.The test games can found in the folder Futoshiki_testgames. 
+The Algorithms we used to solve the puzzle iniclude Backtracking, forward checking, AC-3 and Simulated Annealing.The test games can found in the folder Futoshiki_testgames. 
 
 To run Backtracking without forward checking go to BacktrackSolver/futoshiki.py. Run the code and input one of the four text files. (four.txt, five.txt, six.txt, seven.txt). 
 
